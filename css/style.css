@@ -1,0 +1,48 @@
+#main-header img {
+	height: 100%;
+	width: 100%;
+}
+
+#main-header .port-item {
+	width: 50%;
+}
+
+#main-header .port-item:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.bg-black {
+	color: #fff;
+	background: rgb(36, 29, 29);
+}
+
+.bg-teal {
+	color: #fff;
+	background: teal;
+}
+.bg-firstColor {
+	color: #fff;
+	background: #5a424f;
+}
+
+.bg-secondColor {
+	color: #fff;
+	background: #e7664a;
+}
+
+.bg-thirdColor {
+	color: #fff;
+	background: #8c7077;
+}
+
+.bg-fourthColor {
+	color: #fff;
+	background: #3f424c;
+}
+
+@media (min-width: 1199px) {
+	.port-item {
+		padding: 3em !important;
+	}
+}
